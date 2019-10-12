@@ -89,14 +89,24 @@ a.p-2.text-dark {
     text-align: right;
 }
 
-.col-lg-6.intro p {
-    text-align: right;
-    text-transform: none;
-}
-
 .orange-line  {
     border-bottom: solid 4px #FF6F61;
     margin-left: calc(-50vw + 50%);
     margin-bottom: 2em;
+}
+
+.col.image {
+    margin-right: calc(-100vw + 0%);
+    background-size: 50%;
+}
+
+.col-lg-4.intro {
+    padding-top:10em;
+
+}
+
+.col-lg-4.intro p {
+    text-align: right;
+    text-transform: none;
 }
 
