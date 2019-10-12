@@ -82,3 +82,21 @@ nav.my-2.my-md-0.mr-md-3 {
 a.p-2.text-dark {
     padding: 1em !important;
 }
+
+/* grey jumbotron styling on homepage */
+.jumbotron.grey {
+    padding: 14em;
+    text-align: right;
+}
+
+.col-lg-6.intro p {
+    text-align: right;
+    text-transform: none;
+}
+
+.orange-line  {
+    border-bottom: solid 4px #FF6F61;
+    margin-left: calc(-50vw + 50%);
+    margin-bottom: 2em;
+}
+
