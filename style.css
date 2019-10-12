@@ -32,7 +32,7 @@ h2 {
 .jumbotron.white {
 		color: #FF6F61;
 	  background-color: #fff;
-		height: 20vh;
+		height: 40vh;
 }
 
 .container.orange {
@@ -103,13 +103,15 @@ a.p-2.text-dark {
     margin-right: calc(-100vw + 99%);
 }
 
-.col-lg-4.intro {
-    padding-top:10em;
+.col-lg-3.intro {
     text-align: right;
 }
 
-.col-lg-4.intro p {
+.col-lg-3.intro p {
     text-align: right;
     text-transform: none;
 }
 
+.col-lg-3.intro {
+    padding: 10em 4em 0em 3em;
+}
