@@ -96,7 +96,7 @@ a.p-2.text-dark {
 }
 
 .col.image {
-    margin-right: calc(-100vw + 100%);
+    margin-right: calc(-100vw + 99%);
 }
 
 .col-lg-4.intro {
