@@ -105,7 +105,7 @@ a.p-2.text-dark {
 
 .col-lg-4.intro {
     padding-top:10em;
-
+    text-align: right;
 }
 
 .col-lg-4.intro p {
