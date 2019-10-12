@@ -96,8 +96,7 @@ a.p-2.text-dark {
 }
 
 .col.image {
-    margin-right: calc(-100vw + 0%);
-    background-size: 50%;
+    margin-right: calc(-100vw + 100%);
 }
 
 .col-lg-4.intro {
