@@ -65,7 +65,7 @@ h1.lastname {
     margin-top: 7em;
 }
 
-p {
+.intro {
     text-align: center;
     color: #000;
 	text-transform: uppercase;
@@ -87,15 +87,19 @@ a.p-2.text-dark {
     padding: 1em !important;
 }
 
+.text-dark {
+    color: #000 !important;
+}
+
 /* grey jumbotron styling on homepage */
 .jumbotron.grey {
     padding: 14em;
     text-align: right;
 }
 
-.orange-line  {
+.left-orange-line  {
     border-bottom: solid 4px #FF6F61;
-    margin-left: calc(-50vw + 50%);
+    margin-left: calc(-60vw + 50%);
     margin-bottom: 2em;
 }
 
@@ -103,15 +107,65 @@ a.p-2.text-dark {
     margin-right: calc(-100vw + 99%);
 }
 
-.col-lg-3.intro {
+.intro {
     text-align: right;
 }
 
-.col-lg-3.intro p {
+.intro p {
     text-align: right;
     text-transform: none;
 }
 
-.col-lg-3.intro {
-    padding: 10em 4em 0em 3em;
+.intro {
+    padding: 8em 4em 0em 3em;
+}
+
+
+/* link section on homepage */
+
+.container.checkout {
+    padding: 15em 0em;
+}
+
+.row.check {
+    padding: 10em 0em;
+    text-align: right;
+}
+
+.row.check.odd {
+    text-align: left;
+}
+.right-orange-line  {
+    border-bottom: solid 4px #FF6F61;
+    margin-right: calc(-50vw + 50%);
+    margin-bottom: 2em;
+}
+
+
+/*footer*/
+footer.footer {
+    background-color: #FF6F61;
+    padding-bottom: 3em;
+}
+
+i.fab.fa-linkedin-in, i.fas.fa-chevron-up, i.far.fa-envelope   {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 0.2em;
+}
+
+.faicons {
+    margin: 0 auto;
+}
+
+
+/*resume page */
+.col-md-5.chatbox {
+    background-color: #FF6F61;
+    padding: 2em 0em 1em 4em;
+    margin-top: 14em;
+}
+
+.chatbox h3 {
+    color: #fff;
 }
