@@ -207,3 +207,20 @@ header#masthead {
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
     color: #000;
 }
+
+/* portfolio page */
+.container-fluid.light-grey {
+    background-color: #EFEFEF;
+}
+
+.text-col {
+    padding: 12em 0em;
+}
+
+.container-fluid.medium-grey {
+    background-color: #E0DEE0;
+}
+
+.container-fluid.light-grey img, .container-fluid.medium-grey img {
+     padding: 5em 0;
+}
