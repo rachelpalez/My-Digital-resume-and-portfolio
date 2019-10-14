@@ -137,7 +137,7 @@ a.p-2.text-dark {
 }
 .right-orange-line  {
     border-bottom: solid 4px #FF6F61;
-    margin-right: calc(-50vw + 50%);
+    margin-right: calc(-30vw + 43%);
     margin-bottom: 2em;
 }
 
@@ -168,4 +168,42 @@ i.fab.fa-linkedin-in, i.fas.fa-chevron-up, i.far.fa-envelope   {
 
 .chatbox h3 {
     color: #fff;
+}
+
+h1.entry-title {
+    font-size: 2.5em;
+    margin-bottom: 1.3em;
+}
+
+.row.resume-section {
+    margin-bottom: 9em;
+}
+
+.right {
+    text-align: right;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: grey;
+    line-height: 2em;
+}
+
+hr.wp-block-separator.is-style-wide {
+    margin: 2em 0em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+/*header on template pages */
+
+header#masthead {
+    background-color: #FF6F61;
+}
+
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
+    color: #000;
 }
