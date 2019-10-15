@@ -224,3 +224,44 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
 .container-fluid.light-grey img, .container-fluid.medium-grey img {
      padding: 5em 0;
 }
+
+article#post-210 {
+    margin-bottom: 4em;
+}
+
+button.btn.btn-secondary {
+    font-size: 0.9em;
+    background-color: #FF6F61;
+    border: none;
+    font-family: montserrat;
+    color: #fff;
+    margin-top: 1em;
+    border: 2px solid #ff6f61;
+}
+
+button.btn.btn-secondary:hover {
+    background-color: #EFEFEF;
+    color: #000;
+    border: 2px solid #ff6f61;
+}
+
+.wpforms-confirmation-container-full, div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
+    background: #EFEFEF;
+    border: none;
+    padding: 2em;
+}
+
+/* hiding the home page title */
+
+
+.page-id-44 section#primary {
+    display: none;
+}
+
+.page-id-44 #content.site-content {
+    padding-top: 0;
+}
+
+.page-id-44 header#masthead {
+    box-shadow: none;
+}
