@@ -14,6 +14,10 @@
 @import url('https://fonts.googleapis.com/css?family=Changa:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
 
+h1.entry-title {
+    border-bottom: none;
+}
+
 h2 {
     font-weight: 700;
 }
@@ -30,7 +34,6 @@ h2 {
 }
 
 .jumbotron.white {
-		color: #FF6F61;
 	  background-color: #fff;
 		height: 40vh;
 }
@@ -42,16 +45,16 @@ h2 {
 }
 
 h1 {
-		font-size: 10em;
-		font-family: 'Changa', sans-serif !important;
-		font-weight: 700;
+	font-size: 10em;
+	font-weight: 700;
 }
 
 h1.first {
     color: #000;
-		margin-top: auto;
+	margin-top: auto;
     line-height: 0.4em;
-		z-index:1;
+	z-index:1;
+    font-family: 'Changa', sans-serif !important;
 }
 
 h1.lastname {
@@ -59,6 +62,7 @@ h1.lastname {
     line-height: 0.7;
     color: #FF6F61;
     position: absolute;
+    font-family: 'Changa', sans-serif !important;
 }
 
 .subheader {
@@ -66,9 +70,7 @@ h1.lastname {
 }
 
 .intro {
-    text-align: center;
     color: #000;
-	text-transform: uppercase;
 }
 
 .d-flex.flex-column.flex-md-row.align-items-center {
@@ -232,7 +234,6 @@ article#post-210 {
 button.btn.btn-secondary {
     font-size: 0.9em;
     background-color: #FF6F61;
-    border: none;
     font-family: montserrat;
     color: #fff;
     margin-top: 1em;
