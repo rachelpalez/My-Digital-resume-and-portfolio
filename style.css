@@ -13,6 +13,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Changa:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,800&display=swap');
+
+/* font overrides */
+
+h1 {
+	font-size: 10em;
+	font-weight: 700;
+}
 
 h1.entry-title {
     border-bottom: none;
@@ -20,6 +28,25 @@ h1.entry-title {
 
 h2 {
     font-weight: 700;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+
+/* homepage styling */
+
+.col-lg-6.subheader {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
 }
 
 .jumbotron {
@@ -44,11 +71,6 @@ h2 {
     height: 60vh;
 }
 
-h1 {
-	font-size: 10em;
-	font-weight: 700;
-}
-
 h1.first {
     color: #000;
 	margin-top: auto;
@@ -69,13 +91,42 @@ h1.lastname {
     margin-top: 7em;
 }
 
-.intro {
-    color: #000;
-}
-
 .d-flex.flex-column.flex-md-row.align-items-center {
     background-color: #FF6F61;
 }
+
+/* grey jumbotron styling on homepage */
+.jumbotron.grey {
+    padding: 14em;
+    text-align: right;
+}
+
+.left-orange-line  {
+    border-bottom: solid 4px #FF6F61;
+    margin-left: calc(-60vw + 50%);
+    margin-bottom: 2em;
+}
+
+.col-sm-12.col-md-6.image {
+    padding: 0;
+    background: url(http://localhost:8888/Digital%20resume%20and%20portfolio/wp-content/uploads/2019/10/woman-using-laptop.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.intro {
+    color: #000;
+    text-align: right;
+    padding: 4em 2em;
+}
+
+.intro p {
+    text-align: right;
+    text-transform: none;
+}
+
+/* nav overrides */
 
 .my-0.mr-md-auto {
     padding-left: 5em;
@@ -93,35 +144,11 @@ a.p-2.text-dark {
     color: #000 !important;
 }
 
-/* grey jumbotron styling on homepage */
-.jumbotron.grey {
-    padding: 14em;
-    text-align: right;
+ul#menu-main-menu {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: 300;
 }
-
-.left-orange-line  {
-    border-bottom: solid 4px #FF6F61;
-    margin-left: calc(-60vw + 50%);
-    margin-bottom: 2em;
-}
-
-.col.image {
-    margin-right: calc(-100vw + 99%);
-}
-
-.intro {
-    text-align: right;
-}
-
-.intro p {
-    text-align: right;
-    text-transform: none;
-}
-
-.intro {
-    padding: 8em 4em 0em 3em;
-}
-
 
 /* link section on homepage */
 
@@ -130,7 +157,7 @@ a.p-2.text-dark {
 }
 
 .row.check {
-    padding: 10em 0em;
+    padding: 15em 0em;
     text-align: right;
 }
 
@@ -139,10 +166,13 @@ a.p-2.text-dark {
 }
 .right-orange-line  {
     border-bottom: solid 4px #FF6F61;
-    margin-right: calc(-30vw + 43%);
+    margin-right: calc(-34vw + 34%);
     margin-bottom: 2em;
 }
 
+.container-fluid.checkout h3 {
+    margin-bottom: 0;
+}
 
 /*footer*/
 footer.footer {
@@ -185,19 +215,17 @@ h1.entry-title {
     text-align: right;
 }
 
-h4 {
-    text-transform: uppercase;
-    font-size: 1em;
-    color: grey;
-    line-height: 2em;
-}
-
 hr.wp-block-separator.is-style-wide {
     margin: 2em 0em;
 }
 
-h3 {
-    font-size: 1.4em;
+.resume-section h4 {
+    text-transform: uppercase;
+    color: grey;
+}
+
+.row.resume-section .right-orange-line {
+    margin-right: calc(-30vw + 61%);
 }
 
 /*header on template pages */
@@ -231,7 +259,7 @@ article#post-210 {
     margin-bottom: 4em;
 }
 
-button.btn.btn-secondary {
+button.btn.btn-secondary, button#wpforms-submit-236 {
     font-size: 0.9em;
     background-color: #FF6F61;
     font-family: montserrat;
@@ -240,11 +268,13 @@ button.btn.btn-secondary {
     border: 2px solid #ff6f61;
 }
 
-button.btn.btn-secondary:hover {
+button.btn.btn-secondary:hover, button#wpforms-submit-236:hover {
     background-color: #EFEFEF;
     color: #000;
     border: 2px solid #ff6f61;
 }
+
+/* form styling */
 
 .wpforms-confirmation-container-full, div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
     background: #EFEFEF;
@@ -253,7 +283,6 @@ button.btn.btn-secondary:hover {
 }
 
 /* hiding the home page title */
-
 
 .page-id-44 section#primary {
     display: none;
@@ -266,3 +295,88 @@ button.btn.btn-secondary:hover {
 .page-id-44 header#masthead {
     box-shadow: none;
 }
+
+/*a link styling */
+
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 1200px) {
+    .text-col {
+        padding: 6em 0em;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .row.resume-section .right-orange-line{
+        margin-right: calc(-30vw + 35%);
+}
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 8em; 
+        }
+    .jumbotron.orange {
+        height: 50vh;
+        }
+    .container.orange {
+        height: 50vh;
+        }
+    .col-lg-6.subheader {
+        margin-top: 6em;
+        }
+}
+
+@media only screen and (max-width: 575px) {
+    .text-col {
+        padding: 2em;
+        text-align:center;
+
+    }
+
+    .container-fluid.light-grey img, .container-fluid.medium-grey img {
+        padding: 0;
+        text-align:center;
+        width: 100%;
+    }
+
+    .container-fluid.medium-grey {
+        padding-top: 2em;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 5em;
+    }
+    .jumbotron.orange {
+        height: 40vh;
+    }
+    .container.orange {
+        height: 40vh;
+    }
+    .col-lg-6.subheader {
+        margin-top: 5em;
+    }
+
+}
+
+.page-id-210 .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.page-id-210 .container-fluid {
+    padding-right: 0;
+}
+
+
+
+
