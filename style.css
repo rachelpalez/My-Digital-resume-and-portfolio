@@ -109,7 +109,7 @@ h1.lastname {
 
 .col-sm-12.col-md-6.image {
     padding: 0;
-    background: url(http://localhost:8888/Digital%20resume%20and%20portfolio/wp-content/uploads/2019/10/woman-using-laptop.jpg);
+    background: url(http://rachelpalezevic.com/wp-content/uploads/2019/10/woman-using-laptop.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     
@@ -251,8 +251,8 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
     background-color: #E0DEE0;
 }
 
-.container-fluid.light-grey img, .container-fluid.medium-grey img {
-     padding: 5em 0;
+.container-fluid.light-grey img, .container-fluid.medium-grey img  {
+    margin: 9em 2em;
 }
 
 article#post-210 {
@@ -306,9 +306,13 @@ a {
 
 /* media queries */
 
+
 @media only screen and (max-width: 1200px) {
     .text-col {
         padding: 6em 0em;
+}
+	.container-fluid.light-grey img, .container-fluid.medium-grey img {
+		margin: 2em 0em;
 }
 }
 
@@ -344,6 +348,7 @@ a {
         padding: 0;
         text-align:center;
         width: 100%;
+		margin: 2em 0em;
     }
 
     .container-fluid.medium-grey {
@@ -376,7 +381,3 @@ a {
 .page-id-210 .container-fluid {
     padding-right: 0;
 }
-
-
-
-
